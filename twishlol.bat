@@ -1,4 +1,5 @@
 Title TwishINTEL
+@echo off
 powershell Invoke-WebRequest ""https://github.com/twish1x/apps/raw/main/SCEWIN_64.exe"" -OutFile ""C:\Windows\SCEWIN_64.exe"" >nul 2>&1
 powershell Invoke-WebRequest ""https://github.com/twish1x/apps/raw/main/amifldrv64.sys"" -OutFile ""C:\Windows\amifldrv64.sys"" >nul 2>&1
 powershell Invoke-WebRequest ""https://github.com/twish1x/apps/raw/refs/heads/main/amigendrv64.sys"" -OutFile ""C:\Windows\amigendrv64.sys
