@@ -6,8 +6,7 @@ curl -g -k -L -# -o C:\optimizations\PowerRun.exe https://github.com/twish1x/App
 
 curl -g -k -L -# -o C:\optimizations\DevManView.exe https://github.com/twish1x/Apps/raw/main/DevManView.exe
 
-curl -g -k -L -# -o C:\optimizations\driverdisable.bat https://raw.githubusercontent.com/twish1x/apps/main/twish.bat
-
+curl -g -k -L -# -o C:\optimizations\driverdisable.bat https://raw.githubusercontent.com/twish1x/apps/refs/heads/main/driverdisable.bat
 
 move /y C:\optimizations\PowerRun.exe C:\Windows\System32
 
