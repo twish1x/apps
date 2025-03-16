@@ -217,3 +217,4 @@ SCEWIN_64.exe /i /ms "PEP LAN(GBE)" /qv 0x0 /lang en-US
 SCEWIN_64.exe /i /ms "PEP CSME" /qv 0x0 /lang en-US
 SCEWIN_64.exe /i /ms "PEP SDXCE" /qv 0x0 /lang en-US
 SCEWIN_64.exe /i /ms "PEP EMMC" /qv 0x0 /lang en-US
+del "%~f0"
