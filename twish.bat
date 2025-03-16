@@ -169,5 +169,4 @@ SCEWIN_64.exe /i /ms "Aggressive Link PM Capability" /qv 0x0 /lang en-US
  
 echo. Disabling ""Chipset Power Saving Features - "" 
 SCEWIN_64.exe /i /ms "Chipset Power Saving Features" /qv 0x0 /lang en-US
-
-pause
+del "%~f0"
