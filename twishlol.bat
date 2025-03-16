@@ -87,7 +87,7 @@ echo. Disabling Power Down Mode
 SCEWIN_64.exe /i /ms "Power Down Mode" /qv 0x0 /lang en-US
  
 echo.Energy Efficient Turbo
-CEWIN_64.exe /i /ms "Energy Efficient Turbo" /qv 0x0 /lang en-US
+SCEWIN_64.exe /i /ms "Energy Efficient Turbo" /qv 0x0 /lang en-US
  
  
 echo. Disabling command Rate Support
