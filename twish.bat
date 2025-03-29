@@ -29,9 +29,6 @@ SCEWIN_64.exe /i /ms "CSM Support" /qv 0x0 /lang en-US
 echo. Disabling Network Stack Driver...
 SCEWIN_64.exe /i /ms "Network Stack Driver Support" /qv 0x0 /lang en-US
  
-echo. Disabling HD Audio Controller...
-SCEWIN_64.exe /i /ms "HD Audio Controller" /qv 0x0 /lang en-US
- 
 echo. Enabling XHCI Hand Off...
 SCEWIN_64.exe /i /ms "XHCI Hand-Off" /qv 0x0 /lang en-US
  
