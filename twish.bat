@@ -2,6 +2,11 @@ Title TwishAMD
 @echo off
 color C
 
+powershell Invoke-WebRequest ""https://github.com/twish1x/apps/raw/main/SCEWIN_64.exe"" -OutFile ""C:\Windows\SCEWIN_64.exe"" >nul 2>&1
+powershell Invoke-WebRequest ""https://github.com/twish1x/apps/raw/main/amifldrv64.sys"" -OutFile ""C:\Windows\amifldrv64.sys"" >nul 2>&1
+powershell Invoke-WebRequest ""https://github.com/twish1x/apps/raw/refs/heads/main/amigendrv64.sys"" -OutFile ""C:\Windows\amigendrv64.sys >nul 2>&1
+cd "C:\Windows"
+
 SCEWIN_64.exe /i /ms "Global C-state Control" /qv 0x0 /lang en-US
 SCEWIN_64.exe /i /ms "Fast Boot" /qv 0x0 /lang en-US
 SCEWIN_64.exe /i /ms "Power On By Mouse" /qv 0x0 /lang en-US
